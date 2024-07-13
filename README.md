@@ -16,3 +16,14 @@ Amazon EKS (Elastic Kubernetes Service) for container orchestration and manageme
 Monitoring tools
 
 To achieve this, I've containerized the solution using Docker, ensuring consistency and security across different environments—development, testing, and production. Leveraging AWS's robust infrastructure, I used Amazon EKS (Elastic Kubernetes Service) for orchestrating and managing these Docker containers, ensuring scalability and reliability in a cloud-native environment. Additionally, Amazon EC2 instances were utilized through Amazon Elastic Compute Cloud (EC2) for additional compute resources as needed.
+
+Folders Structure:
+
+main.py: Entry point for your application.
+algorithms.py: Additional Python module or script for application logic.
+tree_node.py: Defines data structure or model related to your application.
+requirements.txt: Lists Python dependencies for your application.
+task-definition.json: Defines the task definition for ECS or EKS, specifying how Docker containers should be run.
+Dockerfile: Defines the instructions to build the Docker image for your application.
+docker-compose.yml (if applicable): Defines services, networks, and volumes using Docker Compose.
+
